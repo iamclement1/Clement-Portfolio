@@ -12,10 +12,10 @@ const Navbar = () => {
     }
     return (
     <div>
-        <nav className='bg-black text-white font-Poppins'>
+        <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent bg-black text-white font-Poppins'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between'>
-                    <div className='flex-shrink-0'>
+                    <div className='flex-shrink-0 relative '>
                         <Link to='/'>
                             <img src={ Logo } alt="Clement-Logo" />
                         </Link>                    
