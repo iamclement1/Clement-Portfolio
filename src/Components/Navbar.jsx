@@ -22,10 +22,10 @@ const Navbar = () => {
                     </div>
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4'>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gray-700 transition duration-300'>Home</NavLink>
-                            <NavLink to='/about' className='py-3 px-3 text-white hover:bg-gray-700 transition duration-300'>About Me</NavLink>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gray-700 transition duration-300'>Portfolio</NavLink>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gray-700 transition duration-300'>Resume</NavLink>
+                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-md transition duration-300'>Home</NavLink>
+                            <NavLink to='/about' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-md transition duration-300'>About Me</NavLink>
+                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-md transition duration-300'>Portfolio</NavLink>
+                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 rounded-md transition duration-300'>Resume</NavLink>
                         </div>
                     </div>
                     <div className='-mr-2 flex md:hidden'>
@@ -49,10 +49,10 @@ const Navbar = () => {
                 {(ref) => (
                     <div className='md:hidden' id='mobile-menu'>
                         <div ref={ref} className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gray-700 transition duration-300'>Home</NavLink>
-                            <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gray-700 transition duration-300'>About Me</NavLink>
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gray-700 transition duration-300'>Portfolio</NavLink>
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gray-700 transition duration-300'>Resume</NavLink>
+                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 transition duration-300'>Home</NavLink>
+                            <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 transition duration-300'>About Me</NavLink>
+                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 transition duration-300'>Portfolio</NavLink>
+                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 transition duration-300'>Resume</NavLink>
                         </div>
                     </div>
                 )}
