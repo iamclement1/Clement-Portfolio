@@ -1,12 +1,12 @@
 import React from 'react';
 import Icon from '../assets/Character Icon.svg';
-import Image from '../assets/Home-Image.jpeg'
+import Image from '../assets/Home-Image.png'
 import Footer from '../Components/Footer';
 
 const Home = () => {
     return (
     <div className='font-Poppins'>
-        <section className='relative flex min-h-screen bg-black'>
+        <section className='relative flex min-h-screen bg-[#0f0f11]'>
             <div className='flex flex-col items-center md:flex-row-reverse'>
                 <div className='md:w-2/5 md:px-0 pt-8 md:pt-0'>
                     <img src={ Image } alt="Clement-Image" />
