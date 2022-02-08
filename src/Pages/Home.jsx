@@ -12,7 +12,7 @@ const Home = () => {
                     <img src={ Image } alt="Clement-Image" />
                 </div>
 
-                <div className='relative text-white md:w-3/5 items-center border border-red-400 justify-center mx-auto p-3'>
+                <div className='relative text-white md:w-3/5 items-center justify-center mx-auto p-3'>
                     <div className='flex pt-4 text-sm items-center md:px-16'>
                         <img src={ Icon } alt="profile-icon" />
                         <span className='pl-2'>Looking for a Web Developer.</span>

@@ -12,7 +12,7 @@ const About = () => {
                 </div>
 
                 <div className='md:w-3/5 relative text-white md:justify-center md:p-16 p-3'>
-                    <div className='border border-red-600 flex text-sm items-center'>
+                    <div className='flex text-sm items-center'>
                         <div className='md:w-2/7 md:justify-center'>
                         <h1 className='md:text-6xl text-2xl font-extrabold'>
                             About Me
