@@ -22,13 +22,20 @@ const Navbar = () => {
                     </div>
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4'>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+                            <NavLink to='/' className='py-3 px-3 text-white 
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>Home</NavLink>
-                            <NavLink to='/about' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+
+                            <NavLink to='/about' className='py-3 px-3 text-white 
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>About Me</NavLink>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+
+                            <NavLink to='/' className='py-3 px-3 text-white 
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink>
-                            <NavLink to='/' className='py-3 px-3 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+
+                            <NavLink to='/' className='py-3 px-3 text-white 
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-800 rounded-md transition duration-300'>Resume</NavLink>
                         </div>
                     </div>
@@ -41,7 +48,8 @@ const Navbar = () => {
                                 xmlns='http://www.w3.org/2000/svg' fill='none' 
                                 viewBox='0 0 24 24' stroke='currentcolor' 
                                 aria-hidden='true'>
-                                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16'/>
+                                    <path strokeLinecap='round' strokeLinejoin='round' 
+                                    strokeWidth={2} d='M4 6h16M4 12h16M4 18h16'/>
                                 </svg>
                             ) : (
                                 <svg className='block h-6 w-6' 
@@ -73,9 +81,10 @@ const Navbar = () => {
                             <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-800'>Resume</NavLink>
                             
-                            <NavLink to='/' className='py-3 px-8 transition duration-300'>
+                            <NavLink to='/' className='py-6 px-8 transition duration-300'>
                                 <button className='bg-gradient-to-r from-pink-400 via-purple-500
-                                to-purple-500  text-white md:py-4 md:px-6 px-3 py-4 text-sm rounded-md' type='btn'>Get in touch</button>
+                                to-purple-500 text-white md:py-4 md:px-6 px-2 py-3 
+                                text-xs rounded-sm' type='btn'>Get in touch</button>
                             </NavLink>
                         </div>
                     </div>

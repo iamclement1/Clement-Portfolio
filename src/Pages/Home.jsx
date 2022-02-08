@@ -33,6 +33,7 @@ const Home = () => {
                         md:px-8 px-3 py-4 text-sm rounded' type='btn'>View Resume</button>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </section>
     </div>
