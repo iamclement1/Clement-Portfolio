@@ -2,7 +2,7 @@
 
 ## 🚀 About Me
 
-I am Nnamdi Clement Azubuike, a **FrontEnd Web Developer** (particularly **React Js**), with a keen eye for detail and beautiful design, create and maintain a better code base for re-usability, capable of continuous learning.
+I am Nnamdi Clement Azubuike, a **FrontEnd Developer** (particularly **React Js**), with a keen eye for detail and beautiful design, create and maintain a better code base for re-usability, capable of continuous learning.
 
 ### Languages
 
