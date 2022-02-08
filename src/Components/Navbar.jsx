@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
 import Logo from '../assets/Logo.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitterSquare, faFacebookSquare, faLinkedinIn, faInstagram, faGithubSquare } from '@fortawesome/fontawesome-free-brands'
 
 const Navbar = () => {
 
@@ -86,6 +88,30 @@ const Navbar = () => {
                                 to-purple-500 text-white md:py-4 md:px-6 px-2 py-3 
                                 text-xs rounded-sm' type='btn'>Get in touch</button>
                             </NavLink>
+
+                            <div className='text-white text-2xl cursor-pointer flex'>
+                                <ul className='flex px-8 pt-5 space-x-5'>
+                                    <li><a href="https://twitter.com/_iamclement_">
+                                        <FontAwesomeIcon icon={ faTwitterSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        </a></li>
+
+                                        <li><a href="https://web.facebook.com/azubuike.nnamdi1/">
+                                        <FontAwesomeIcon icon={ faFacebookSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        </a></li>
+
+                                        <li><a href="https://www.linkedin.com/in/clementnnamdi/">
+                                        <FontAwesomeIcon icon={ faLinkedinIn } className='cursor-pointer'></FontAwesomeIcon>
+                                        </a></li>
+
+                                        <li><a href="https://www.instagram.com/iamclement_/">
+                                        <FontAwesomeIcon icon={ faInstagram } className='cursor-pointer'></FontAwesomeIcon>
+                                        </a></li>
+
+                                        <li><a href="https://github.com/iamclement1">
+                                        <FontAwesomeIcon icon={ faGithubSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        </a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 )}
