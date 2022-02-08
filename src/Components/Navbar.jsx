@@ -92,23 +92,23 @@ const Navbar = () => {
                             <div className='text-white text-2xl cursor-pointer flex'>
                                 <ul className='flex px-8 pt-5 space-x-5'>
                                     <li><a href="https://twitter.com/_iamclement_">
-                                        <FontAwesomeIcon icon={ faTwitterSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={ faTwitterSquare } className='cursor-pointer text-3xl'></FontAwesomeIcon>
                                         </a></li>
 
                                         <li><a href="https://web.facebook.com/azubuike.nnamdi1/">
-                                        <FontAwesomeIcon icon={ faFacebookSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={ faFacebookSquare } className='cursor-pointer text-3xl'></FontAwesomeIcon>
                                         </a></li>
 
                                         <li><a href="https://www.linkedin.com/in/clementnnamdi/">
-                                        <FontAwesomeIcon icon={ faLinkedinIn } className='cursor-pointer'></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={ faLinkedinIn } className='cursor-pointer bg-white text-black px-1 py-0.5 rounded-sm'></FontAwesomeIcon>
                                         </a></li>
 
                                         <li><a href="https://www.instagram.com/iamclement_/">
-                                        <FontAwesomeIcon icon={ faInstagram } className='cursor-pointer'></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={ faInstagram } className='cursor-pointer bg-white text-black px-1 py-.5 text-3xl rounded-sm'></FontAwesomeIcon>
                                         </a></li>
 
                                         <li><a href="https://github.com/iamclement1">
-                                        <FontAwesomeIcon icon={ faGithubSquare } className='cursor-pointer'></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={ faGithubSquare } className='cursor-pointer text-3xl'></FontAwesomeIcon>
                                         </a></li>
                                 </ul>
                             </div>
