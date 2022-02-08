@@ -32,7 +32,6 @@ const Home = () => {
                         <button className='bg-transparent outline outline-gradient-to-r from outline-pink-300 via-purple-500 to-purple-600 text-white md:py-4 
                         md:px-8 px-3 py-4 text-sm rounded' type='btn'>View Resume</button>
                     </div>
-
                     <Footer/>
                 </div>
             </div>
