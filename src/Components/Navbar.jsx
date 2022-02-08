@@ -71,7 +71,12 @@ const Navbar = () => {
                             to-purple-500 transition duration-300'>Portfolio</NavLink>
                             
                             <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-300'>Resume</NavLink>
+                            to-purple-500 transition duration-800'>Resume</NavLink>
+                            
+                            <NavLink to='/' className='py-3 px-8 transition duration-300'>
+                                <button className='bg-gradient-to-r from-pink-400 via-purple-500
+                                to-purple-500  text-white md:py-4 md:px-6 px-3 py-4 text-sm rounded-md' type='btn'>Get in touch</button>
+                            </NavLink>
                         </div>
                     </div>
                 )}
