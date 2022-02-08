@@ -1,3 +1,5 @@
+
+
 module.exports = {
   content: [
     "./index.html",
@@ -17,11 +19,12 @@ module.exports = {
       'silver': '#ecebff',
       'bubble-gum': '#ff77e9',
       'bermuda': '#78dcca',
+      'pink' : '#e97ef4',
       },
     },
     extend: {
       FontFamily: {
-        Poppins: ["Poppins", ],
+        Poppins: 'Poppins, sans-serif',
       },
     },
   },
