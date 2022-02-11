@@ -14,10 +14,10 @@ const Navbar = () => {
     }
     return (
     <div>
-        <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent bg-black text-white font-Poppins'>
+        <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent bg-[#0f0f11] text-white font-Poppins'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between'>
-                    <div className='flex-shrink-0 relative '>
+                    <div className='flex-shrink-0 relative mr-10'>
                         <Link to='/'>
                             <img src={ Logo } alt="Clement-Logo" />
                         </Link>                    
@@ -32,11 +32,11 @@ const Navbar = () => {
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>About Me</NavLink>
 
-                            <NavLink to='/' className='py-3 px-3 text-white 
+                            <NavLink to='/portfolio' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink>
 
-                            <NavLink to='/' className='py-3 px-3 text-white 
+                            <NavLink to='/resume' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-800 rounded-md transition duration-300'>Resume</NavLink>
                         </div>
@@ -77,13 +77,13 @@ const Navbar = () => {
                             <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>About Me</NavLink>
 
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+                            <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>Portfolio</NavLink>
                             
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+                            <NavLink to='/resume' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-800'>Resume</NavLink>
                             
-                            <NavLink to='/' className='py-6 px-8 transition duration-300'>
+                            <NavLink to='/getintouch' className='py-6 px-8 transition duration-300'>
                                 <button className='bg-gradient-to-r from-pink-400 via-purple-500
                                 to-purple-500 text-white md:py-4 md:px-6 px-2 py-3 
                                 text-xs rounded-sm' type='btn'>Get in touch</button>

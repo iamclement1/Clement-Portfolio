@@ -2,13 +2,14 @@ import React from 'react';
 import Icon from '../assets/Character Icon.svg';
 import Image from '../assets/Home-Image.png'
 import Footer from '../Components/Footer';
+import { NavLink } from 'react-router-dom';
 
 const Home = () => {
     return (
     <div className='font-Poppins'>
         <section className='relative flex min-h-screen bg-[#0f0f11]'>
             <div className='flex flex-col items-center md:flex-row-reverse'>
-                <div className='md:w-2/5 md:px-0 pt-8 md:pt-0'>
+                <div className='md:w-2/5 md:px-0 pt-8 md:pt-0 min-h-screen'>
                     <img src={ Image } alt="Clement-Image" />
                 </div>
 
@@ -27,15 +28,17 @@ const Home = () => {
                     </div>
 
                     <div className='flex md:w-5/7 md:pl-16 pt-12 space-x-5'>
-                        <button className='bg-gradient-to-r from-pink-400 via-purple-500 
-                        to-purple-500 text-white md:py-5 md:px-8 px-3 py-4 text-sm rounded-md' type='btn'>Get in touch</button>
+                        <NavLink to='/getintouch'>
+                            <button className='bg-gradient-to-r from-pink-400 via-purple-500 
+                            to-purple-500 text-white md:py-5 md:px-8 px-3 py-4 text-sm rounded-md' type='btn'>Get in touch</button>
+                        </NavLink>
                         <button className='bg-transparent outline outline-gradient-to-r from outline-pink-300 via-purple-500 to-purple-600 text-white md:py-4 
                         md:px-8 px-3 py-4 text-sm rounded' type='btn'>View Resume</button>
                     </div>
                 </div>
-                <Footer/>
             </div>
         </section>
+        <Footer/>
     </div>
     
     

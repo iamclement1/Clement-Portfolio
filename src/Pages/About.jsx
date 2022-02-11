@@ -27,7 +27,9 @@ const About = () => {
                 </div>
             </div>
         </section>
-    </div>);
+        <Footer/>
+    </div>
+    );
 };
 
 export default About;
