@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from '../assets/Character Icon.svg';
 import Image from '../assets/Home-Image.png'
-import Footer from '../Components/Footer';
+import Footer from '../Components/Footer/Footer';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {

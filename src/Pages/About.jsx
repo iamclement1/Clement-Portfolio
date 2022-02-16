@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImage  from '../assets/About-Image.png'
-import Footer from '../Components/Footer';
+import Footer from '../Components/Footer/Footer';
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
                     <div className='flex text-sm items-center'>
                         <div className='md:w-2/7 md:justify-center p-1'>
                             <h1 className='md:text-6xl text-2xl font-extrabold'>
-                            About Me
+                            ABOUT ME
                             </h1>
                             <p className='leading-loose md:pt-8 pt-3'>My name is Nnamdi Clement, I'm a Front End Engineer with a keen eye for detail and beautiful design, and a determination to deliver the very highest quality, I take great pride in my work, and I always try to better myself with every project I work on.☀️. I describe myself as a passionate developer who loves coding, open source, and the web platform ❤️. The main areas of my expertise are HTML(5), CSS(3) and JavaScript (jQuery), SASS, Bootstrap, Tailwind, ReactJs and NextJs but I have intermediate knowledge of PHP and MySQL. </p>
 
