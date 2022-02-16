@@ -20,7 +20,7 @@ const Navbar = () => {
         <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent bg-[#0f0f11] text-white font-Poppins'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between'>
-                    <div className='flex-shrink-0 relative mr-10'>
+                    <div className='flex-shrink-0 relative mr-auto'>
                         <Link to='/'>
                             <img src={ Logo } alt="Clement-Logo" />
                         </Link>                    
