@@ -16,7 +16,7 @@ const Form = () => {
                             w-full hover:border-pink-800 focus:outline-none' />
 
                             <input type="email" name='email' id='email' autoComplete='email'
-                            placeholder='Email'  className='appearance-none md:rounded-md
+                            placeholder='Email' required className='appearance-none md:rounded-md
                             rounded-sm md:w-1/2 w-full md:mt-0 mt-4
                             md:p-3 p-2 bg-transparent border border-purple-800 
                             hover:border-pink-800 focus:outline-none'/>
@@ -24,14 +24,14 @@ const Form = () => {
                         </div>
                         
                         <div className='pt-4'>
-                            <input type="text" name='text' id='text' placeholder='Subject'
+                            <input type="text" name='text' id='text' placeholder='Subject' required
                             className='appearance-none md:rounded-md rounded-sm md:p-3 
                             p-2 w-full bg-transparent
                             border border-purple-800 hover:border-pink-800 focus:outline-none' />
                         </div>
 
                         <div className='pt-4'>
-                            <textarea name="message" id="message" cols="44" rows="5" placeholder='Message' className='md:p-3 p-2 bg-transparent
+                            <textarea name="message" id="message" cols="44" rows="5" placeholder='Message' required className='md:p-3 p-2 bg-transparent
                             md:rounded-md rounded-sm border border-purple-800
                             hover:border-pink-800 w-full'>
 
