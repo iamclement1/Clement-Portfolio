@@ -8,7 +8,8 @@ const Form = () => {
         <section>
             <div className='pt-8 md:flex md:flex-row items-center md:space-x-8'>
                 <div className='md:w-2/4 '>
-                    <form action="#" className='md:px-0 px-2' method='POST'>
+                    <form action="https://usebasin.com/f/07debcc2e2a0"
+                    className='md:px-0 px-2' method='POST'>
                         <div className='md:flex md:flex-row items-center md:space-x-2'>
                             <input type="text" name='name' id='name' autoComplete='name'
                             placeholder='Name' required 
