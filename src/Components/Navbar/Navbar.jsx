@@ -26,22 +26,24 @@ const Navbar = () => {
                         </Link>                    
                     </div>
                     <div className='hidden md:block'>
-                        <div className='ml-10 flex items-baseline space-x-4'>
+                        <div className='ml-10 flex items-baseline space-x-4 text-black'>
                             <NavLink to='/' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 rounded-md transition duration-300'>Home</NavLink>
+                            to-purple-500 rounded-md transition duration-300 '>
+                                Home
+                            </NavLink>
 
                             <NavLink to='/about' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>About Me</NavLink>
 
-                            <NavLink to='/portfolio' className='py-3 px-3 text-white 
+                            {/* <NavLink to='/portfolio' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink>
+                            to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink> */}
 
-                            <NavLink to='/resume' className='py-3 px-3 text-white 
+                            {/* <NavLink to='/resume' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-800 rounded-md transition duration-300'>Resume</NavLink>
+                            to-purple-800 rounded-md transition duration-300'>Resume</NavLink> */}
                         </div>
                     </div>
                     <div className='-mr-2 flex md:hidden'>
@@ -80,11 +82,11 @@ const Navbar = () => {
                             <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>About Me</NavLink>
 
-                            <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-300'>Portfolio</NavLink>
-                            
+                            {/* <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
+                            to-purple-500 transition duration-300'>Portfolio</NavLink> */}
+{/*                             
                             <NavLink to='/resume' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-800'>Resume</NavLink>
+                            to-purple-500 transition duration-800'>Resume</NavLink> */}
                             
                             <NavLink to='/getintouch' className='py-6 px-8 transition duration-300'>
                                 <button className='bg-gradient-to-r from-pink-400 via-purple-500
