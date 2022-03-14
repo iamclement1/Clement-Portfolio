@@ -8,7 +8,7 @@ const Form = () => {
         <section>
             <div className='pt-8 md:flex md:flex-row items-center md:space-x-8'>
                 <div className='md:w-2/4 '>
-                    <form action="https://usebasin.com/f/07debcc2e2a0"
+                    <form action="https://usebasin.com/f/bab2628332c7"
                     className='md:px-0 px-2' method='POST' id='form'
                     enctype="multipart/form-data">
                         <div className='md:flex md:flex-row items-center md:space-x-2'>
@@ -33,7 +33,8 @@ const Form = () => {
                         </div>
 
                         <div className='pt-4'>
-                            <textarea name="message" id="message" cols="44" rows="5" placeholder='Message' required className='md:p-3 p-2 bg-transparent
+                            <textarea name="message" id="message" cols="44" rows="5" 
+                            placeholder='Message' required className='md:p-3 p-2 bg-transparent
                             md:rounded-md rounded-sm border border-purple-800
                             hover:border-pink-800 w-full'>
 
