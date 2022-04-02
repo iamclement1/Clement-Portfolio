@@ -11,9 +11,9 @@ const Projects = () => {
     <div>
         <section className='min-h-screen relative bg-[#0f0f11] text-white'>
             <div className='md:px-24 md:py-24 px-2 py-16 md:flex md:space-x-5 md:space-y-0 space-y-3'>
-                <div className='md:max-w-sm min-w-screen rounded overflow-hidden shadow-lg '>
+                <div className='md:max-w-sm min-w-screen rounded overflow-hidden'>
                     <img src={Logistics} alt="" className='w-full' />
-                    <div className='px-6 py-4 bg-gray-300 text-black'>
+                    <div className='px-6 py-4 bg-[#191919] text-white'>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Logistics Page
                         </div>
@@ -31,7 +31,7 @@ const Projects = () => {
                 </div>
                 <div className='md:max-w-sm min-w-screen rounded overflow-hidden shadow-lg '>
                     <img src={ Fashion } alt="" className='w-full' />
-                    <div className='px-6 py-4 bg-gray-300 text-black'>
+                    <div className='px-6 py-4 bg-[#191919] text-white'>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Chungi Fashion 
                         </div>
@@ -50,7 +50,7 @@ const Projects = () => {
 
                 <div className='md:max-w-sm min-w-screen rounded overflow-hidden shadow-lg '>
                     <img src={ Landing } alt="" className='w-full' />
-                    <div className='px-6 py-4 bg-gray-300 text-black'>
+                    <div className='px-6 py-4 bg-[#191919] text-white '>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Landing Page
                         </div>

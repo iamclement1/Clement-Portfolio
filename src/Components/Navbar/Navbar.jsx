@@ -28,18 +28,15 @@ const Navbar = () => {
                     <div className='hidden md:block'>
                         <div className='ml-10 flex items-baseline space-x-4 text-black'>
                             <NavLink to='/' className='py-3 px-3 text-white 
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 rounded-md transition duration-300 '>
+                            hover:text-purple-500 transition duration-300 '>
                                 Home
                             </NavLink>
 
                             <NavLink to='/about' className='py-3 px-3 text-white 
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 rounded-md transition duration-300'>About Me</NavLink>
+                            hover:text-purple-500 transition duration-300'>About Me</NavLink>
 
                             <NavLink to='/projects' className='py-3 px-3 text-white
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 to-purple-500
-                            rounded-md transition duration-300'>
+                            hover:text-purple-500 transition duration-300'>
                                 Projects
                             </NavLink>
 
@@ -82,15 +79,14 @@ const Navbar = () => {
                 {(ref) => (
                     <div className='md:hidden' id='mobile-menu'>
                         <div ref={ref} className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-300'>Home</NavLink>
+                            <NavLink to='/' className='block py-3 px-8 text-white hover:text-purple-500
+                                transition duration-300'>Home</NavLink>
 
-                            <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-300'>About Me</NavLink>
+                            <NavLink to='/about' className='block py-3 px-8 text-white 
+                            hover:text-purple-500 transition duration-300'>About Me</NavLink>
 
                             <NavLink to='/projects' className='block py-3 px-8 text-white
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 to-purple-500
-                            transition duration-300'>Projects</NavLink>
+                            hover:text-purple-500 transition duration-300'>Projects</NavLink>
 
                             {/* <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>Portfolio</NavLink> */}
