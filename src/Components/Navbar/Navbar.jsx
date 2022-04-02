@@ -88,6 +88,10 @@ const Navbar = () => {
                             <NavLink to='/about' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>About Me</NavLink>
 
+                            <NavLink to='/projects' className='block py-3 px-8 text-white
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 to-purple-500
+                            transition duration-300'>Projects</NavLink>
+
                             {/* <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-300'>Portfolio</NavLink> */}
 {/*                             
