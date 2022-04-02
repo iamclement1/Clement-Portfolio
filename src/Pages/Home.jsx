@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
+    
     return (
     <div className='font-Poppins'>
         <section className='relative flex min-h-screen bg-[#0f0f11]'>
@@ -41,7 +42,7 @@ const Home = () => {
                         
                         <a href="https://drive.google.com/file/d/1Lrt6J-0A94HvR-L_rnog-MBkUtQwBg1V/view?usp=sharing">
                             <button className='bg-transparent outline outline-gradient-to-r from outline-pink-300 via-purple-500 to-purple-600 text-white
-                            md:py-4  md:px-8 px-3 py-4  text-sm rounded' type='btn'>
+                            md:py-4  md:px-8 px-3 py-4  text-sm rounded ' type='btn'>
                                 View Resume
                             </button>
                         </a>

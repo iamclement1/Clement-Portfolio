@@ -3,6 +3,8 @@ import Logistics from '../assets/Logistics.png'
 import Fashion from '../assets/Fashion.png'
 import Landing from '../assets/Modern-Landing.png'
 import Footer from '../Components/Footer/Footer'
+import { ModalHover } from 'react-modal-hover'
+
 
 const Projects = () => {
     return (
@@ -65,8 +67,8 @@ const Projects = () => {
                     
                 </div>
             </div>
-        </section>
 
+        </section>
         <Footer />
     </div>
 )
