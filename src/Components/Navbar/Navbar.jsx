@@ -37,6 +37,12 @@ const Navbar = () => {
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>About Me</NavLink>
 
+                            <NavLink to='/projects' className='py-3 px-3 text-white
+                            hover:bg-gradient-to-r from-pink-300 via-purple-500 to-purple-500
+                            rounded-md transition duration-300'>
+                                Projects
+                            </NavLink>
+
                             {/* <NavLink to='/portfolio' className='py-3 px-3 text-white 
                             hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink> */}
@@ -87,6 +93,9 @@ const Navbar = () => {
 {/*                             
                             <NavLink to='/resume' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
                             to-purple-500 transition duration-800'>Resume</NavLink> */}
+
+                            <NavLink to='/projects' className='block py-3 px-8 text-white
+                            hover:bg-gradien'></NavLink>
                             
                             <NavLink to='/getintouch' className='py-6 px-8 transition duration-300'>
                                 <button className='bg-gradient-to-r from-pink-400 via-purple-500
