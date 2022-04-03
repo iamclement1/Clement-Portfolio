@@ -19,7 +19,7 @@ const Home = () => {
                 <div className='relative text-white md:w-3/5 items-center justify-center
                 mx-auto p-3'>
                     <div className='flex pt-4 text-sm items-center md:px-16'>
-                        <img src={ Icon } alt="profile-icon" /> 
+                        <img src={ Icon } alt="profile-icon" className='pr-2' /> 
                         <p>Looking for a {' '}
                             <Typical 
                             loop = {Infinity}
