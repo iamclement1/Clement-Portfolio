@@ -16,7 +16,7 @@ const Form = () => {
                             placeholder='Name' required 
                             className='appearance-none md:rounded-md rounded-sm md:p-3 p-2 bg-transparent border border-purple-800 md:w-1/2 
                             w-full hover:border-pink-800 focus:outline-none' />
-
+                            
                             <input type="email" name='email' id='email' autoComplete='email'
                             placeholder='Email' required className='appearance-none md:rounded-md
                             rounded-sm md:w-1/2 w-full md:mt-0 mt-4
