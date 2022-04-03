@@ -5,6 +5,7 @@ import Footer from '../Components/Footer/Footer';
 import { NavLink } from 'react-router-dom';
 
 const Home = () => {
+
     
     return (
     <div className='font-Poppins'>

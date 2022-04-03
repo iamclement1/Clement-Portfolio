@@ -10,14 +10,17 @@ const Projects = () => {
     return (
     <div>
         <section className='min-h-screen relative bg-[#0f0f11] text-white'>
-            <div className='md:px-24 md:py-24 px-2 py-16 md:flex md:space-x-5 md:space-y-0 space-y-3'>
-                <div className='md:max-w-sm min-w-screen rounded overflow-hidden'>
+            <div className='md:px-24 md:py-24 px-2 py-16 md:flex md:space-x-5 
+            md:space-y-0 space-y-3'>
+                <div className='md:max-w-sm min-w-screen rounded overflow-hidden
+                transform  transition duration-500 hover:scale-110 cursor-pointer'>
                     <img src={Logistics} alt="" className='w-full' />
                     <div className='px-6 py-4 bg-[#191919] text-white'>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Logistics Page
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
 
                         <a href="https://crystals-logistics.netlify.app/">
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
@@ -29,18 +32,21 @@ const Projects = () => {
                     </div>
                     
                 </div>
-                <div className='md:max-w-sm min-w-screen rounded overflow-hidden shadow-lg '>
+                <div className='md:max-w-sm min-w-screen rounded overflow-hidden
+                transform transition duration-500 hover:scale-110 cursor-pointer'>
                     <img src={ Fashion } alt="" className='w-full' />
                     <div className='px-6 py-4 bg-[#191919] text-white'>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Chungi Fashion 
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit 
+                        aliquid accusantium inventore atque, quaerat maiores quia!</p>
 
-                        <a href="https://alist-fashion.netlify.app/">
+                        <a href="https://alist-fashion.netlify.app/" target = '_blank'>
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
-                            to-purple-600 text-white md:py-2 md:px-4 mb-3 mt-4 py-3 p-3  text-sm
-                            rounded-md' type='btn'>
+                            to-purple-600 text-white md:py-2 md:px-4 mb-3 mt-4 py-3 p-3 
+                            text-sm rounded-md' type='btn'>
                                 View Project
                         </button>
                         </a>
@@ -48,13 +54,16 @@ const Projects = () => {
                     
                 </div>
 
-                <div className='md:max-w-sm min-w-screen rounded overflow-hidden shadow-lg '>
+                <div className='md:max-w-sm min-w-screen rounded overflow-hidden
+                transform  transition duration-500 hover:scale-110 cursor-pointer'>
                     <img src={ Landing } alt="" className='w-full' />
                     <div className='px-6 py-4 bg-[#191919] text-white '>
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Landing Page
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Sit praesentium consequatur sequi 
+                        minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
 
                         <a href="https://modern-lp.netlify.app/">
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 

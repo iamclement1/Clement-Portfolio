@@ -17,7 +17,8 @@ const Navbar = () => {
     }
     return (
     <div>
-        <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent bg-[#0f0f11] text-white font-Poppins'>
+        <nav className='absolute w-full top-0 md:justify-between z-50 md:bg-transparent 
+        bg-[#0f0f11] text-white font-Poppins'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between'>
                     <div className='flex-shrink-0 relative mr-auto'>
@@ -39,19 +40,13 @@ const Navbar = () => {
                             hover:text-purple-500 transition duration-300'>
                                 Projects
                             </NavLink>
-
-                            {/* <NavLink to='/portfolio' className='py-3 px-3 text-white 
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 rounded-md transition duration-300'>Portfolio</NavLink> */}
-
-                            {/* <NavLink to='/resume' className='py-3 px-3 text-white 
-                            hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-800 rounded-md transition duration-300'>Resume</NavLink> */}
                         </div>
                     </div>
                     <div className='-mr-2 flex md:hidden'>
-                        <button type='button' onClick={handleNav} className='bg-gray-900 inline-flex items-center justify-center p-2 rounded-md 
-                        text-gray-400 hover:text-white focus:outline-none' aria-controls='mobile-menu' aria-expanded='false'>
+                        <button type='button' onClick={handleNav} className='bg-gray-900 
+                        inline-flex items-center justify-center p-2 rounded-md 
+                        text-gray-400 hover:text-white focus:outline-none' 
+                        aria-controls='mobile-menu' aria-expanded='false'>
                             <span className='sr-only'>Open main meunu</span>
                             {!showNav ? (
                                 <svg className='block h-6 w-6' 
@@ -65,7 +60,8 @@ const Navbar = () => {
                                 <svg className='block h-6 w-6' 
                                 mlns='http://www.w3.org/2000/svg' fill='none' 
                                 viewBox='0 0 24 24' stroke='currentcolor' aria-hidden='true'>
-                                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M6 18L18 6M6 6l12 12'/>
+                                    <path strokeLinecap='round' strokeLinejoin='round' 
+                                    strokeWidth={2} d='M6 18L18 6M6 6l12 12'/>
                                 </svg>
                             )}
                         </button>
@@ -73,13 +69,15 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <Transition show={showNav} enter='transition ease-out duration-200 transform' enterFrom='opacity-0 scale-95' enterTo='opacity-100 scale-100' 
+            <Transition show={showNav} enter='transition ease-out duration-200 transform' 
+            enterFrom='opacity-0 scale-95' enterTo='opacity-100 scale-100' 
             leave='transition ease-in duration-75 transform' 
             leaveFrom='opacity-100 scale-100' leaveTo='opacity-0 scale-95'>
                 {(ref) => (
                     <div className='md:hidden' id='mobile-menu'>
                         <div ref={ref} className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                            <NavLink to='/' className='block py-3 px-8 text-white hover:text-purple-500
+                            <NavLink to='/' className='block py-3 px-8 text-white 
+                            hover:text-purple-500
                                 transition duration-300'>Home</NavLink>
 
                             <NavLink to='/about' className='block py-3 px-8 text-white 
@@ -87,12 +85,6 @@ const Navbar = () => {
 
                             <NavLink to='/projects' className='block py-3 px-8 text-white
                             hover:text-purple-500 transition duration-300'>Projects</NavLink>
-
-                            {/* <NavLink to='/portfolio' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-300'>Portfolio</NavLink> */}
-{/*                             
-                            <NavLink to='/resume' className='block py-3 px-8 text-white hover:bg-gradient-to-r from-pink-300 via-purple-500 
-                            to-purple-500 transition duration-800'>Resume</NavLink> */}
 
                             <NavLink to='/projects' className='block py-3 px-8 text-white
                             hover:bg-gradien'></NavLink>
