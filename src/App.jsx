@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { BrowserRouter as Router,  Route, Link, Routes } from 'react-router-dom'
+import { BrowserRouter as Router,  Route, Routes } from 'react-router-dom'
 import Navbar from './Components/Navbar/Navbar'
 import Home from './Pages/Home'
 import About from './Pages/About'
@@ -12,9 +12,9 @@ import LoadingScreen from './Components/LoadingScreen/LoadingScreen'
 
 function App() {
 
-  const [ loading, setLoading ] = useState(false);
+  const [ loading, setLoading ] = React.useState(false);
 
-  useEffect(() => {
+  React.useEffect(() => {
     setLoading(true);
   }, []);
 
