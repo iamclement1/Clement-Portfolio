@@ -7,12 +7,24 @@ import Portfolio from './Pages/Portfolio'
 import Resume from './Pages/Resume'
 import GetInTouch from './Pages/GetInTouch'
 import Projects from './Pages/Projects'
+import LoadingScreen from './Components/LoadingScreen/LoadingScreen'
 
 
 function App() {
 
+  const [ loading, setLoading ] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+  }, []);
+
   return (
     <Router>
+      {!loading ? (
+        <React.Fragment>
+          <LoadingScreen />
+        </React.Fragment>
+      ) : (
     <div className='App font-Poppins'>
       <Navbar/>
       <Routes>
@@ -24,6 +36,7 @@ function App() {
         <Route path='/getintouch' element={<GetInTouch/>} />
       </Routes>
     </div>
+    )}
     </Router>
   )
 }

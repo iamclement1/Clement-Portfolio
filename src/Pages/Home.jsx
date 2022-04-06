@@ -25,7 +25,7 @@ const Home = () => {
                             loop = {Infinity}
                             wrapper = 'b'
                             steps = {[
-                                'Front-End Developer',
+                                'Front-End Developer?',
                                 1000, 
                                 ''
                             ]}

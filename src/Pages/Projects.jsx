@@ -19,8 +19,10 @@ const Projects = () => {
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Logistics Page
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>
+                            A Landing page that displays goods and makes product delivery services
+                            easy for clients. 
+                        </p>
 
                         <a href="https://crystals-logistics.netlify.app/">
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
@@ -39,9 +41,10 @@ const Projects = () => {
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Chungi Fashion 
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet,
-                        consectetur adipisicing elit. Sit praesentium consequatur sequi minima,pit 
-                        aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>
+                            A Fashion Blog Landing page developed for fashion freaks to get
+                            fashion updates. Page owned by Chungi Fashion.
+                        </p>
 
                         <a href="https://alist-fashion.netlify.app/" target = '_blank'>
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
@@ -61,9 +64,10 @@ const Projects = () => {
                         <div className='font-bold md:text-xl text-xs mb-2'>
                             Landing Page
                         </div>
-                        <p className='text-sm group-hover:text-white'>Lorem ipsum dolor sit amet, 
-                        consectetur adipisicing elit. Sit praesentium consequatur sequi 
-                        minima,pit aliquid accusantium inventore atque, quaerat maiores quia!</p>
+                        <p className='text-sm group-hover:text-white'>
+                            Modern Landing page given as a task from frontend Mentor, to
+                            proof my level of competence as a frontend Developer
+                        </p>
 
                         <a href="https://modern-lp.netlify.app/">
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
