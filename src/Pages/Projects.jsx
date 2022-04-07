@@ -24,7 +24,8 @@ const Projects = () => {
                             easy for clients. 
                         </p>
 
-                        <a href="https://crystals-logistics.netlify.app/">
+                        <a href="https://crystals-logistics.netlify.app/"
+                        target="_blank">
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
                             to-purple-600 text-white md:py-2 md:px-4 mb-3 mt-4 py-3 p-3 text-sm
                             rounded-md' type='btn'>
@@ -69,7 +70,8 @@ const Projects = () => {
                             proof my level of competence as a frontend Developer
                         </p>
 
-                        <a href="https://modern-lp.netlify.app/">
+                        <a href="https://modern-lp.netlify.app/"
+                        target='_blank'>
                         <button className='bg-gradient-to-r from-pink-400 via-purple-500 
                             to-purple-600 text-white md:py-2 md:px-4 mb-3 mt-4 py-3 p-3  text-sm
                             rounded-md' type='btn'>
