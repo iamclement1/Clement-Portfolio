@@ -37,9 +37,8 @@ const Home = () => {
                             <h1 className='md:text-6xl text-2xl font-extrabold'>
                                 HI, I AM
                             </h1>
-                            <h1 className='md:text-6xl text-3xl pt-2 font-extrabold
-                        '>
-                                AZUBUIKE CLEMENT</h1>
+                            <h1 className='md:text-6xl text-3xl pt-2 font-extrabold uppercase'>
+                                Nnamdi Clement</h1>
                             <p className='text-white text-sm md:text-xl md:w-5/6 
                         pt-3 leading-loose'>
                                 Innovative Frontend Developer with a strong background and a track record of success in fast-paced environments.  Interested in learning, teaching, and development, as well as contributing to a larger development team. Ready to tackle more difficult problems and continue to improve user efficiency. </p>
