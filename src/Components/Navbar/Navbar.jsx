@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Transition } from '@headlessui/react';
 import Logo from '../../assets/Logo.svg'
 import Facebook from '../../assets/facebook.svg'
@@ -11,6 +11,11 @@ import Github from '../../assets/Vector.svg'
 const Navbar = () => {
 
     const [showNav, setShowNav] = useState(false);
+    const { pathname } = useLocation();
+
+    useEffect (() => {
+        setShowNav(false);
+    }, [ pathname])
 
     const handleNav = () => {
         setShowNav(!showNav)
