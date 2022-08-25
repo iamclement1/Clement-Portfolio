@@ -51,7 +51,7 @@ const Home = () => {
                             rounded-md' type='btn'>Get in touch</button>
                             </NavLink>
 
-                            <a href="https://drive.google.com/file/d/1ErHS-GvVUI6MiBSHFHseTmwrWngpRpHV/view?usp=sharing" target="_blank">
+                            <a href="https://drive.google.com/file/d/19HXLlJi35Lo6SfnGFF9V6KyLCiA5FwUH/view?usp=sharing" target="_blank">
                                 <button className='bg-transparent outline outline-gradient-to-r from outline-pink-300 via-purple-500 to-purple-600 text-white
                             md:py-5  md:px-8 px-3 py-4 text-sm rounded ' type='btn'>
                                     View Resume
