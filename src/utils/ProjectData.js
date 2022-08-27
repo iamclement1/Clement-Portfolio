@@ -1,8 +1,11 @@
+import Hostelpaddy from "../assets/hostelpaddy.png";
+
 export const ProjectData = [
     {
         id: 1,
         title: "Hostelpaddy",
-        description: "Hostel paddy is a platform with the vision of connecting students with house owners/agents to solve their hostel accommodation problems."
+        description: "Hostel paddy is a platform with the vision of connecting students with house owners/agents to solve their hostel accommodation problems.",
+        image: Hostelpaddy,
     },
     {
         id: 2,
