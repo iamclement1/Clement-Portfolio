@@ -9,7 +9,7 @@ export const ProjectData = [
         id:1,
         image: Hostelpaddy,
         title: "Hostelpaddy",
-        description: "A platform with the vision of connecting students with house owners/agents to solve their hostel problems.",
+        description: "Connecting students with house owners/agents to solve their hostel problems.",
         link: "https://hostelpaddy.netlify.app/",
         
         

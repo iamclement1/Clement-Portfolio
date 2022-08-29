@@ -5,7 +5,7 @@ function ProjectCards(props) {
         <>
             <section className="min-h-screen relative bg-[#0f0f11] text-white pb-10">
                 <div className="md:px-20 md:py-24 px-2 py-16 md:flex md:space-x-5 md:space-y-0 ">
-                    <div className="flex flex-wrap justify-around">
+                    <div className="flex flex-wrap justify-around space-x-3 space-y-3">
                         {
                             ProjectData.map((project, index) => {
                                 return (
