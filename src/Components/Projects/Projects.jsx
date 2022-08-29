@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import ProjectCards from '../Projects/ProjectCards'
+import LoadingScreen from '../LoadingScreen/LoadingScreen'
 
 
 export default function Projects () {
@@ -12,11 +13,11 @@ export default function Projects () {
         <div>
             { loading ? (
                 <div className="text-center m-auto pt-25">
-                    <Loader />
+                    <LoadingScreen />
                 </div>
             ) : (
                 <>
-                <div className="flex justify-around flex-wrap">
+                <div className="space-y-3">
                     <ProjectCards />
                 </div>
                 </>
