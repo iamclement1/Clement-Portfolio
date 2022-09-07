@@ -3,6 +3,8 @@ import Hostelpaddy from "../assets/hostelpaddy.png";
 import Thestore from "../assets/Thestore.png"
 import Urbane from "../assets/Urbane.png"
 import Somtinsomtin from "../assets/somtinsomtin.png"
+import Netflix from "../assets/netflix.png"
+
 
 export const ProjectData = [
     {
@@ -34,5 +36,11 @@ export const ProjectData = [
         title: "Urbane Foods",
         description: "A Restaurant Website that allows customers to order foods at their convienience.",
         link: "https://urbane-foods.netlify.app/"
+    },
+    {
+        id: 5,
+        image: Netflix,
+        description: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, etc ...",
+        link: "https://ntflx-99b6f.web.app/"
     }
 ]
