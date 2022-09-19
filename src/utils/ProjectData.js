@@ -40,6 +40,7 @@ export const ProjectData = [
     {
         id: 5,
         image: Netflix,
+        title: "Netflix Clone",
         description: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, etc ...",
         link: "https://ntflx-99b6f.web.app/"
     }
