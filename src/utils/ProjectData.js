@@ -43,5 +43,17 @@ export const ProjectData = [
         title: "Netflix Clone",
         description: "Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, etc ...",
         link: "https://ntflx-99b6f.web.app/"
+    },
+    {
+        id: 6,
+        title: "Daily Dev",
+        description: "daily. dev is a community of developers getting together around discovering and exploring dev news. Join the movement to empower better software together.",
+        link: "https://daily-devto.netlify.app/"
+    },
+    {
+        id: 7,
+        title: "A List Fashions",
+        description: "That feeling when you find that one dress. That one item that makes you feel really good. Shop up to 40% off on our discount",
+        link: "https://alist-fashion.netlify.app/#",
     }
 ]
