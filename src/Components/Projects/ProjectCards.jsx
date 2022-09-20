@@ -6,10 +6,13 @@ function ProjectCards(props) {
         <>
             <section className="min-h-screen relative bg-[#0f0f11] text-white pb-10">
                 <div className="md:px-20 md:py-24 px-2 py-16 md:space-y-0 ">
-                    <Fade direction="up"
-                    className="mb-10 md:px-16 text-4xl">
+                    <span className="mb-10 md:px-16 text-4xl">
                         My Projects
-                    </Fade>
+                        <div className="px-16">
+                            <hr className="w-1/3" />
+
+                        </div>
+                    </span>
                     <div className="flex flex-wrap justify-around space-y-2">
                         {
                             ProjectData.map((project, index) => {
