@@ -8,6 +8,7 @@ import GetInTouch from './Pages/GetInTouch'
 import Projects from './Pages/Projects'
 import LoadingScreen from './Components/LoadingScreen/LoadingScreen'
 import Navbar from './Components/Navbar/Navbar'
+import Articles from './Components/Articles/Articles'
 
 
 function App() {
@@ -33,7 +34,9 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>} />
         <Route path='/projects' element={<Projects/>} />
         <Route path='/resume' element={<Resume/>} />
+        <Route path='/articles' element={<Articles />} />
         <Route path='/getintouch' element={<GetInTouch/>} />
+
       </Routes>
     </div>
     )}

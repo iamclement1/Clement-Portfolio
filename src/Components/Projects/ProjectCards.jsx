@@ -5,7 +5,11 @@ function ProjectCards(props) {
     return (
         <>
             <section className="min-h-screen relative bg-[#0f0f11] text-white pb-10">
-                <div className="md:px-20 md:py-24 px-2 py-16 md:flex  md:space-y-0 ">
+                <div className="md:px-20 md:py-24 px-2 py-16 md:space-y-0 ">
+                    <Fade direction="up"
+                    className="mb-10 md:px-16 text-4xl">
+                        My Projects
+                    </Fade>
                     <div className="flex flex-wrap justify-around space-y-2">
                         {
                             ProjectData.map((project, index) => {
@@ -16,7 +20,7 @@ function ProjectCards(props) {
                                     transform  transition duration-500 hover:scale-110"
                                                 key={index}>
                                                 <div className="px-4 py-4">
-                                                    <div className="text-4xl mb-2">
+                                                    <div className="md:text-4xl text-2xl mb-2">
                                                         {project.title}
                                                     </div>
                                                     <p className="text-sm text-gray-300">

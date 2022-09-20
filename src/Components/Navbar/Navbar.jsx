@@ -78,8 +78,8 @@ const Navbar = () => {
                                 <NavLink to='/projects' className='block py-3 px-8 text-white
                             hover:text-purple-500 transition duration-300'>Projects</NavLink>
 
-                                <NavLink to='/projects' className='block py-3 px-8 text-white
-                            hover:bg-gradien'></NavLink>
+                                <NavLink to='/articles' className='block py-3 px-8 text-white
+                            hover:bg-gradien'> Articles </NavLink>
 
                                 <NavLink to='/getintouch' className='py-6 px-8 transition duration-300'>
                                     <button className='bg-gradient-to-r from-pink-400 via-purple-500
