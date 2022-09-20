@@ -24,8 +24,8 @@ export default function ArticleCard() {
                                 hashnode.map((article, index) => {
                                     return (
                                         <Fade direction="up" triggerOnce cascade>
-                                            <div className="md:max-w-xl underline ">
-                                                <ul key={index}>
+                                            <div className="md:max-w-xl underline py-2">
+                                                <ul key={index} className="">
                                                     <li>
                                                         <a href={article.read} target="_blank">
                                                             {article.title}
@@ -52,7 +52,7 @@ export default function ArticleCard() {
                                 medium.map((article, index) => {
                                     return (
                                         <Fade direction="up" triggerOnce cascade>
-                                            <div className="md:max-w-xl underline  ">
+                                            <div className="md:max-w-xl underline py-2 ">
                                                 <ul key={index}>
                                                     <li>
                                                         <a href={article.read} target="_blank">
