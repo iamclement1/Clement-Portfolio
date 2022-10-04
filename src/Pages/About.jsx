@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutImage  from '../assets/About-Image.png'
 import Footer from '../Components/Footer/Footer';
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 const About = () => {
     return (
@@ -8,7 +9,7 @@ const About = () => {
         <section className='relative flex min-h-screen bg-[#0f0f11]'>
             <div className='flex flex-col md:justify-between items-center md:flex-row-reverse'>
                 <div className='md:w-2/5 md:px-0 pt-8 md:pt-0'>
-                    <img src={ AboutImage } alt="About Image" />
+                    <LazyLoadImage src={ AboutImage } alt="About Image" />
                 </div>
 
                 <div className='md:w-3/5 relative text-white md:justify-center md:p-16 p-3'>

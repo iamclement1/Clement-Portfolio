@@ -1,9 +1,11 @@
 import React from 'react';
 import Icon from '../assets/Character Icon.svg';
 import Image from '../assets/Home-Image.png'
+import PlaceholderImg from '../assets/PlaceholderImg.png'
 import Footer from '../Components/Footer/Footer';
 import { NavLink } from 'react-router-dom';
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Home = () => {
 
@@ -13,13 +15,14 @@ const Home = () => {
             <section className='relative flex min-h-screen bg-[#0f0f11]'>
                 <div className='flex flex-col items-center md:flex-row-reverse'>
                     <div className='md:w-2/5 md:px-0 pt-8 md:pt-0 '>
-                        <img src={Image} alt="Clement-Image" />
+                        <LazyLoadImage src={Image} alt="Clement-Image" 
+                        PlaceholderSrc={PlaceholderImg} />
                     </div>
 
                     <div className='relative text-white md:w-3/5 items-center justify-center
                 mx-auto p-3'>
                         <div className='flex pt-4 text-sm items-center md:px-16'>
-                            <img src={Icon} alt="profile-icon" className='pr-2' />
+                            <LazyLoadImage src={Icon} alt="profile-icon" className='pr-2' />
                             <p>Looking for a {' '}
                                 <Typical
                                     loop={Infinity}
