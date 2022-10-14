@@ -20,6 +20,10 @@ export const hashnode = [
         read: "https://iamclement.hashnode.dev/javascript-operator",
     },
     {
+        title: "Rudiments of React",
+        read: "https://iamclement.hashnode.dev/understanding-the-rudiment-of-react"
+    },
+    {
         title: "Components in React",
         read: "https://iamclement.hashnode.dev/components-in-react"
     },
