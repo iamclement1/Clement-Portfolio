@@ -34,7 +34,11 @@ export const hashnode = [
     {
         title: "Step By Step Guide To Deploy ReactJS App on AWS Amplify",
         read: "https://iamclement.hashnode.dev/deploy-a-full-stack-react-application-aws"
-    }
+    },
+    {
+        title: "How to send a bearer token in a header with Axios",
+        read: "https://iamclement.hashnode.dev/how-to-send-bearer-token-in-a-header-with-axios"
+    },
 ].reverse();
 
 //Articles I have ever written on medium
