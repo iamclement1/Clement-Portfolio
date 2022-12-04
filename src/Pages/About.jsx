@@ -18,7 +18,7 @@ const About = () => {
                             <h1 className='md:text-6xl text-2xl font-extrabold'>
                             ABOUT ME
                             </h1>
-                            <p className='leading-loose md:pt-8 pt-3'>I'm a Front-end Developer at Kudigo, Community Lead at Google Developer Groups and KwaraBuild both at Ilorin, in Kwara State. I always try to better myself with every project I work on. I describe myself as a passionate developer who loves coding, open-source, and the web platform. The main areas of my expertise are HTML(5), CSS(3) and JavaScript (jQuery), SASS, Bootstrap, Tailwind, and ReactJs. </p>
+                            <p className='leading-loose md:pt-8 pt-3'>I'm a Front-end Developer, Community Lead at Google Developer Groups at Ilorin, in Kwara State. I describe myself as a passionate developer who loves coding, open-source, and the web platform. The main areas of my expertise are HTML(5), CSS(3) and JavaScript (jQuery), SASS, Bootstrap, Tailwind, and ReactJs. </p>
 
                             <p className='pt-5'>Aside from my job, I like to create and contribute to open-source projects, mentor and tutor folks trying to find their feet as a Frontend Developer. With the help of the tech community I have mentored over 500 personnel, which has helped me learn a ton of new stuff and grow as a developer. </p>
 
