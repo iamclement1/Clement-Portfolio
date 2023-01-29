@@ -44,7 +44,7 @@ const Home = () => {
                                 Nnamdi Azubuike</h1>
                             <p className='text-white text-sm md:text-xl md:w-5/6 
                         pt-3 leading-loose'>
-                                Innovative Frontend Developer with a strong background and a track record of success in fast-paced environments.  Interested in learning, teaching, and development, as well as contributing to a larger development team. Ready to tackle more difficult problems and continue to improve user efficiency. </p>
+                                Innovative Frontend Developer with 1 year of industrial experience, a strong background, and a track record of success in fast-paced environments. Interested in learning, teaching, and development, as well as contributing to a larger development team. Skilled in designing, developing, and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer. </p>
                         </div>
 
                         <div className='flex md:w-5/7 md:pl-16 pt-12 space-x-5'>
