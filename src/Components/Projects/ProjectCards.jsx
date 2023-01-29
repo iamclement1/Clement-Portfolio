@@ -1,17 +1,35 @@
 import { Fade } from "react-awesome-reveal"
 import { ProjectData } from "../../utils/ProjectData"
+import Typical from 'react-typical';
+import { Link } from "react-router-dom";
+
 
 function ProjectCards(props) {
     return (
         <>
             <section className="min-h-screen relative bg-[#0f0f11] text-white pb-10">
-                <div className="md:px-20 md:py-24 px-2 py-16 md:space-y-0 ">
+                <div className="md:px-18 md:py-24 px-2 py-16 md:space-y-0 ">
                     <span className="md:mb-10 mb-6 md:px-16 text-4xl">
                         My Projects
                         <div className="md:px-16 mb-10">
                             <hr className="w-1/3" />
 
                         </div>
+                        <p className="md:px-16 text-sm"> {' '}
+                            <Typical
+                                loop={Infinity}
+                                wrapper='b'
+                                steps={[
+                                    'A list of projects I have worked on',
+                                    2000,
+                                    'Projects are available on GitHub',
+                                    2000,
+                                ]}
+                            />
+                        </p>
+                        <p className="md:px-16 text-sm pt-5">
+                            Click here to read my <Link to="/articles" className="text-purple-500">Documented Experience </Link>
+                        </p>
                     </span>
                     <div className="flex flex-wrap justify-around space-y-2">
                         {
