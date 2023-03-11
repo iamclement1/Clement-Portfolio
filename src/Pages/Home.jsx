@@ -15,8 +15,8 @@ const Home = () => {
             <section className='relative flex min-h-screen bg-[#0f0f11]'>
                 <div className='flex flex-col items-center md:flex-row-reverse'>
                     <div className='md:w-2/5 md:px-0 pt-8 md:pt-0 '>
-                        <LazyLoadImage src={Image} alt="Clement-Image" 
-                        PlaceholderSrc={PlaceholderImg} />
+                        <LazyLoadImage src={Image} alt="Clement-Image"
+                            PlaceholderSrc={PlaceholderImg} />
                     </div>
 
                     <div className='relative text-white md:w-3/5 items-center justify-center
@@ -29,7 +29,7 @@ const Home = () => {
                                     wrapper='b'
                                     steps={[
                                         'Front-End Developer?',
-                                        1000,
+                                        3000,
                                         ''
                                     ]}
                                 />
@@ -44,7 +44,13 @@ const Home = () => {
                                 Nnamdi Azubuike</h1>
                             <p className='text-white text-sm md:text-xl md:w-5/6 
                         pt-3 leading-loose'>
-                                Innovative Frontend Developer with 1 year of industrial experience, a strong background, and a track record of success in fast-paced environments. Interested in learning, teaching, and development, as well as contributing to a larger development team. Skilled in designing, developing, and testing multiple web-based applications incorporating a range of technologies. Aspiring to combine broad background with strong technical skills to excel as a Front-End Developer. </p>
+                                I am an innovative frontend Engineer with professional experience in React, basic experience with Angular and Next.js, and familiarity with backend technologies.
+                            </p>
+
+                            <p className='text-white text-sm md:text-xl md:w-5/6 
+                        pt-8 leading-loose'>
+                                I also spend time documenting my learning process by researching and writing articles about frontend technologies on platforms like Hashnode and other general experiences on Medium.
+                            </p>
                         </div>
 
                         <div className='flex md:w-5/7 md:pl-16 pt-12 space-x-5'>
